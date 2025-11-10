@@ -34,11 +34,11 @@ function Header() {
 // Pizza data
 const pizzas = [
   { name: "Spinach Pizza", image: "/pizzas/Spinach.jpg", description: "Tomato, mozzarella, spinach, and ricotta cheese.", price: 10 },
-  { name: "Pepperoni Pizza", image: "/pizzas/Pepperoni.jpg", description: "Tomato, mozzarella, and pepperoni slices.", price: 12 },
-  { name: "Margherita Pizza", image: "/pizzas/Margherita.jpg", description: "Tomato, mozzarella, fresh basil, and olive oil.", price: 9 },
+  { name: "Pepperoni Pizza", image: "/pizzas/pepperoni.jpg", description: "Tomato, mozzarella, and pepperoni slices.", price: 12 },
+  { name: "Margherita Pizza", image: "/pizzas/margherita.jpg", description: "Tomato, mozzarella, fresh basil, and olive oil.", price: 9 },
   { name: "Hawaiian Pizza", image: "/pizzas/Hawaiian.jpg", description: "Ham, pineapple chunks, mozzarella, and tomato sauce.", price: 11 },
   { name: "BBQ Chicken Pizza", image: "/pizzas/BBQchicken.jpg", description: "Grilled chicken, BBQ sauce, onions, and mozzarella.", price: 13 },
-  { name: "Veggie Pizza", image: "/pizzas/Veggie.jpg", description: "Bell peppers, onions, mushrooms, olives, and mozzarella.", price: 10 },
+  { name: "Veggie Pizza", image: "/pizzas/veggie.jpg", description: "Bell peppers, onions, mushrooms, olives, and mozzarella.", price: 10 },
 ];
 
 // MenuItem renders <li> elements

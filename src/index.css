@@ -101,13 +101,27 @@ body {
 .pizzas {
   list-style: none;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 4.8rem;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  gap: 4.8rem; /* space between pizzas */
+  width: 100%;
 }
+
 
 .pizza {
   display: flex;
   gap: 3.2rem;
+  width: 100%; /* make sure each pizza fills its grid cell */
+
+  /* Add box styling */
+  background-color: #fff;       /* white card background */
+  padding: 1.6rem;              /* space inside the card */
+  border-radius: 8px;            /* rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* subtle shadow */
+  transition: transform 0.2s;
+}
+
+.pizza:hover {
+  transform: translateY(-5px); /* lift effect on hover */
 }
 
 .pizza img {
